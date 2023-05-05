@@ -1,5 +1,0 @@
-Color scheme
-
-darker: #062730
-mid(yellow): #f08c00
-lighter :#faffff
