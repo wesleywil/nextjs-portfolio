@@ -1,16 +1,12 @@
 import { motion } from "framer-motion";
-import { Roboto } from "next/font/google";
 import { FaGithub } from "react-icons/fa";
 
-const roboto = Roboto({
-  weight: "700",
-  subsets: ["latin"],
-});
+import { roboto700 } from "@/fonts/fonts";
 
 export default function Home() {
   return (
     <main
-      className={`flex flex-col items-center justify-center gap-2 text-[#cfd3d4] text-center ${roboto.className}`}
+      className={`flex flex-col items-center justify-center gap-2 text-[#faffff] text-center ${roboto700.className}`}
     >
       <div className="flex flex-col gap-0">
         <h1 className="text-[8rem]">
