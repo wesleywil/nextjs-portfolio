@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { TbHandFinger } from "react-icons/tb";
 
-import { roboto400 } from "@/fonts/fonts";
+import { roboto400, lora } from "@/fonts/fonts";
 import SkillPanel from "@/components/skills_panel/skills_panel.component";
 
 export default function Skills() {
@@ -15,13 +15,21 @@ export default function Skills() {
           {" "}
           <span className="text-[#f08c00]">S</span>kills{" "}
         </h1>
-        <div className="mx-auto xl:w-1/2 text-center ">
+        <div className="h-12 mt-2 flex justify-center">
+          <button
+            onClick={() => setHidden(!hidden)}
+            className="text-4xl hover:text-5xl rotate-[-25deg] transition duration-700 ease-in"
+          >
+            <TbHandFinger />
+          </button>
+        </div>
+        <div className="mx-auto  text-center ">
           {hidden ? (
-            <div className="w-full h-[12rem]	flex flex-col gap-2 items-center border">
+            <div className="w-[20rem] md:w-[50rem] xl:w-[60rem] mx-auto h-96 text-xl	flex flex-col gap-2 justify-center items-center overflow-y-auto">
               <p className="self-center">
                 I create amazing web apps that are fast and easy to use. The
                 main technologies used in my apps are Html, CSS, Javascript to
-                Front-end and manly Python to Back-end.
+                Front-end and Javascript, PHP or even Python for the Backend
               </p>
               <p className="self-center">
                 I like to experience with other tech as well, that's why I'm
@@ -32,15 +40,6 @@ export default function Skills() {
           ) : (
             <SkillPanel />
           )}
-
-          <div className="h-24 mt-2 flex justify-center">
-            <button
-              onClick={() => setHidden(!hidden)}
-              className="text-4xl hover:text-5xl rotate-[-25deg] transition duration-700 ease-in"
-            >
-              <TbHandFinger />
-            </button>
-          </div>
         </div>
       </div>
     </main>

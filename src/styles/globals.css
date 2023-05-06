@@ -5,7 +5,7 @@
 :root{
   --dark-color:#062730;
   --mid-color:#f08c00;
-  --light-color:#faffff;
+  --light-color:#bebebe;
 }
 
 body{
@@ -16,6 +16,11 @@ body{
 .dot_pattern{
   background-image: repeating-linear-gradient(-45deg, var(--dark-color), var(--dark-color) 1px, transparent 1px, transparent 6px);
   background-size: 4px 4px;
+}
+
+.dot_pattern2{
+  background-image: repeating-linear-gradient(-45deg, #8b8b8b, #8b8b8b 1px, transparent 1px, transparent 6px);
+  background-size: 4px 4px; 
 }
 
 .text-outline{
