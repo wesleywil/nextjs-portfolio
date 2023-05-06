@@ -10,7 +10,7 @@ export default function Skills() {
     <main
       className={`flex flex-col items-center justify-center gap-2 text-center ${roboto400.className}`}
     >
-      <div className="flex flex-col gap-2 text-[#faffff] text-2xl">
+      <div className="flex flex-col gap-2 text-[#faffff] text-xl md:text-2xl">
         <h1 className="text-7xl  font-bold">
           {" "}
           <span className="text-[#f08c00]">S</span>kills{" "}
@@ -25,7 +25,7 @@ export default function Skills() {
         </div>
         <div className="mx-auto  text-center ">
           {hidden ? (
-            <div className="w-[20rem] md:w-[50rem] xl:w-[60rem] mx-auto h-96 text-xl	flex flex-col gap-2 justify-center items-center overflow-y-auto">
+            <div className="w-[20rem] md:w-[50rem] xl:w-[60rem] mx-auto h-96	flex flex-col gap-2 justify-center items-center overflow-y-auto">
               <p className="self-center">
                 I create amazing web apps that are fast and easy to use. The
                 main technologies used in my apps are Html, CSS, Javascript to
