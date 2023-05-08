@@ -25,6 +25,7 @@ export default function Projects() {
                   hassle-free experience that ensures the best service possible
                   for our customers."
               git_link="https://github.com/wesleywil/coffee-shop"
+              unoptimized={false}
             />
             <ProjectItem
               img_url="https://i.imgur.com/bUqL4Z1.gif"
@@ -32,6 +33,7 @@ export default function Projects() {
               tech="TAURI + REACTJS + SQLITE"
               description="This is a bug tracker desktop application, that was created to track bugs and issues in my future and current projects."
               git_link="https://github.com/wesleywil/bug-tracker"
+              unoptimized={true}
             />
             <ProjectItem
               img_url="https://i.imgur.com/nNGuD73.gif"
@@ -39,6 +41,7 @@ export default function Projects() {
               tech="TAURI + REACTJS + SQLITE"
               description="This project is for anime management, I'm replacing a text file with a lot of animes that I watched, still “watching” or dropped for the last 8 years to this new project that I intend to use daily when it's finished."
               git_link="https://github.com/wesleywil/Goto-Project"
+              unoptimized={true}
             />
             <ProjectItem
               img_url="https://i.imgur.com/7wHnUrC.png"
@@ -46,6 +49,7 @@ export default function Projects() {
               tech="EXPRESS + REACTJS + PRISMA + SQLITE"
               description="A meditation app for calming the soul in this busy world."
               git_link="https://github.com/wesleywil/zen_app"
+              unoptimized={false}
             />
             <ProjectItem
               img_url="https://i.imgur.com/QXLsQ45.png"
@@ -53,6 +57,7 @@ export default function Projects() {
               tech="SPOTIFY API + SVELTE"
               description="A project for music, using the spotify api."
               git_link="https://github.com/wesleywil/X-music"
+              unoptimized={false}
             />
           </div>
           <h2 className="w-full mt-2 text-center md:text-left text-slate-400 text-sm border-b">
@@ -65,6 +70,7 @@ export default function Projects() {
               tech="FIREBASE + REACTJS"
               description="Clothing shop a project using reactjs and firebase"
               git_link="https://github.com/wesleywil/clothing-shop"
+              unoptimized={false}
             />
           </div>
         </div>

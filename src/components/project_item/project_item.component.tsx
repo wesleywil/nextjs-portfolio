@@ -8,6 +8,7 @@ type ProjectItemProps = {
   tech: string;
   description: string;
   git_link: string;
+  unoptimized: boolean;
 };
 
 const ProjectItem = ({ ...item }: ProjectItemProps) => {
@@ -20,6 +21,7 @@ const ProjectItem = ({ ...item }: ProjectItemProps) => {
         sizes="(max-width: 640px) 300px"
         alt={item.title + " project"}
         className="mx-auto rounded"
+        unoptimized={item.unoptimized}
       />
       <div className="mx-auto self-center ">
         <h1 className="text-2xl">{item.title}</h1>
