@@ -9,9 +9,10 @@ export default function Contact() {
       className={`flex flex-col items-center justify-center gap-2 text-center ${roboto400.className}`}
     >
       <div className="flex flex-col gap-2 text-[#faffff] text-xl md:text-2xl">
-        <h1 className="text-6xl md:text-7xl  font-bold">
+        <h1 className="mt-2 text-6xl md:text-7xl  font-bold">
           <span className="text-[#f08c00]">C</span>ontact
         </h1>
+        <div className="h-12 mt-2 flex justify-center"></div>
         <div className="mx-auto w-11/12 xl:w-1/2 flex flex-col gap-2 items-center text-center ">
           <p className="p-2">
             I'm interested in any good oportunity that can make me a better

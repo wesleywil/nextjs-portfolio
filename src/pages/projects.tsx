@@ -7,14 +7,14 @@ export default function Projects() {
       className={`flex flex-col items-center justify-center gap-2 text-center ${roboto400.className}`}
     >
       <div className="flex flex-col gap-2 text-[#faffff] text-2xl">
-        <h1 className="text-7xl  font-bold">
+        <h1 className="mt-2 text-6xl md:text-7xl  font-bold">
           <span className="text-[#f08c00]">P</span>rojects
         </h1>
-        <div className="mx-auto xl:w-[70rem] h-[40rem] py-4 flex flex-col gap-2 items-center text-center overflow-y-auto">
+        <div className="mx-auto w-[20rem] md:w-[50rem] xl:w-[70rem] h-[40rem] py-4 flex flex-col gap-2 items-center text-center overflow-y-auto">
           <h2 className="w-full mt-2 text-center md:text-left text-slate-400 text-sm border-b">
             PERSONAL
           </h2>
-          <div className="flex flex-col gap-2 text-base">
+          <div className="flex flex-col gap-4 text-base">
             <ProjectItem
               img_url="https://i.imgur.com/2gnRO82.png"
               title="Coffee Shop"

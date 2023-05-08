@@ -5,7 +5,7 @@ const Header = () => {
   const router = useRouter();
   return (
     <header className="bg-black h-20 flex flex-wrap justify-center items-center text-[#faffff]">
-      <div className="self-center flex gap-2 md:text-2xl list-none">
+      <div className="self-center flex gap-4 md:text-xl list-none">
         <li
           className={`${
             router.pathname === "/"
@@ -14,6 +14,15 @@ const Header = () => {
           }`}
         >
           <Link href="/">Home</Link>
+        </li>
+        <li
+          className={`${
+            router.pathname === "/projects"
+              ? "border-b border-[#f08c00] hover:border-[#ad6500]"
+              : "hover:text-slate-400"
+          }`}
+        >
+          <Link href="/projects">Projects</Link>
         </li>
         <li
           className={`${

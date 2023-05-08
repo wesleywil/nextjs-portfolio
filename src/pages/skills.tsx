@@ -11,7 +11,7 @@ export default function Skills() {
       className={`flex flex-col items-center justify-center gap-2 text-center ${roboto400.className}`}
     >
       <div className="flex flex-col gap-2 text-[#faffff] text-xl md:text-2xl">
-        <h1 className="text-7xl  font-bold">
+        <h1 className="mt-2 text-6xl md:text-7xl  font-bold">
           {" "}
           <span className="text-[#f08c00]">S</span>kills{" "}
         </h1>

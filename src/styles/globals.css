@@ -31,3 +31,23 @@ body{
   -webkit-text-stroke: 1px #f08c00;
 }
 
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #faffff;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #f08c00;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #062730;
+}
+
