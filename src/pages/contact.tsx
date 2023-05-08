@@ -15,9 +15,9 @@ export default function Contact() {
         <div className="h-12 mt-2 flex justify-center"></div>
         <div className="mx-auto w-11/12 xl:w-1/2 flex flex-col gap-2 items-center text-center ">
           <p className="p-2">
-            I'm interested in any good oportunity that can make me a better
+            I&apos;m interested in any good oportunity that can make me a better
             developer, looking for new experiences and ways to grows as a
-            professional, don't hesitate to contact me.
+            professional, don&apos;t hesitate to contact me.
           </p>
         </div>
         <div className={`flex flex-col gap-2 ${lora.className}`}>

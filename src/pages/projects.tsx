@@ -30,14 +30,14 @@ export default function Projects() {
               img_url="https://i.imgur.com/bUqL4Z1.gif"
               title="BUG Tracker"
               tech="TAURI + REACTJS + SQLITE"
-              description="This is a bug tracker desktop application, that created to track bugs and issues in my future and current projects."
+              description="This is a bug tracker desktop application, that was created to track bugs and issues in my future and current projects."
               git_link="https://github.com/wesleywil/bug-tracker"
             />
             <ProjectItem
               img_url="https://i.imgur.com/nNGuD73.gif"
               title="GOTO Project"
               tech="TAURI + REACTJS + SQLITE"
-              description="This project is for my anime management, I'm replacing a notepad txt with a lot of animes that I watched, still “watching” or dropped for the last 8 years to this new project that I intend to use daily when it's finished."
+              description="This project is for anime management, I'm replacing a text file with a lot of animes that I watched, still “watching” or dropped for the last 8 years to this new project that I intend to use daily when it's finished."
               git_link="https://github.com/wesleywil/Goto-Project"
             />
             <ProjectItem
@@ -51,7 +51,7 @@ export default function Projects() {
               img_url="https://i.imgur.com/QXLsQ45.png"
               title="X-music"
               tech="SPOTIFY API + SVELTE"
-              description="A project for music something using the spotify api."
+              description="A project for music, using the spotify api."
               git_link="https://github.com/wesleywil/X-music"
             />
           </div>

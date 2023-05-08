@@ -32,9 +32,10 @@ export default function Skills() {
                 Front-end and Javascript, PHP or even Python for the Backend
               </p>
               <p className="self-center">
-                I like to experience with other tech as well, that's why I'm
-                using nowadays Tauri an amazing framework to create desktop apps
-                using rust as the backend language and reactjs at the Front-end.
+                I like to experience with other tech as well, that&apos;s why
+                I&apos;m using nowadays Tauri an amazing framework to create
+                desktop apps using rust as the backend language and reactjs at
+                the Front-end.
               </p>
             </div>
           ) : (

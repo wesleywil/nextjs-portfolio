@@ -14,15 +14,15 @@ export default function About() {
         <div className="h-12 mt-2 flex justify-center"></div>
         <div className="mx-auto w-11/12 xl:w-1/2 flex flex-col gap-2 items-center text-center ">
           <p className="p-2">
-            I'm a Full-Stack Developer located in Brazil, I love technology and
-            art, especially when we can combine both, like beautiful sites,
+            I&apos;m a Full-Stack Developer located in Brazil, I love technology
+            and art, especially when we can combine both, like beautiful sites,
             digital paintings and 3d modeling.
           </p>
           <p className="p-2">
-            I'm always trying to improve myself by everyday becoming a little
-            better, I love to learn new tech and challenge myself with
-            frameworks and programming languages.I really Love music, I'm Fan of
-            Football(Soccer), E-sports, animes, comics, and mangas.
+            I&apos;m always trying to improve myself by everyday becoming a
+            little better, I love to learn new tech and challenge myself with
+            frameworks and programming languages.I really Love music, I&apos;m
+            Fan of Football(Soccer), E-sports, animes, comics, and mangas.
           </p>
           <p className="p-2">
             Interested in front-end and backend, working right now in personal
