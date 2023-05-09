@@ -1,4 +1,4 @@
-import { FaStar } from "react-icons/fa";
+import SkillStick from "../skill_stick/skill_stick.component";
 
 const PlSkills = () => {
   return (
@@ -9,41 +9,43 @@ const PlSkills = () => {
       <div className="p-2 flex flex-col md:flex-row flex-wrap justify-center items-center ">
         <h1 className="self-center">Javascript</h1>
         <div className="flex gap-1 pt-2 px-2">
-          <div className="w-4 h-12  bg-[#0a586d] dot_pattern2"></div>
-          <div className="w-4 h-12  bg-[#0a586d] dot_pattern2"></div>
-          <div className="w-4 h-12  bg-[#0a586d] dot_pattern2"></div>
-          <div className="w-4 h-12  bg-[#0a586d] dot_pattern2"></div>
-          <div className="w-4 h-12  bg-[#062730] dot_pattern2"></div>
+          <SkillStick on={true} duration={0.1} />
+          <SkillStick on={true} duration={0.2} />
+          <SkillStick on={true} duration={0.3} />
+          <SkillStick on={true} duration={0.4} />
+          <SkillStick on={false} duration={0.5} />
         </div>
         <h1 className="self-center">Typescript</h1>
         <div className="flex gap-1 pt-2 px-2">
-          <div className="w-4 h-12  bg-[#0a586d] dot_pattern2"></div>
-          <div className="w-4 h-12  bg-[#0a586d] dot_pattern2"></div>
-          <div className="w-4 h-12  bg-[#0a586d] dot_pattern2"></div>
-          <div className="w-4 h-12  bg-[#062730] dot_pattern2"></div>
+          <SkillStick on={true} duration={0.1} />
+          <SkillStick on={true} duration={0.2} />
+          <SkillStick on={true} duration={0.3} />
+          <SkillStick on={false} duration={0.4} />
+          <SkillStick on={false} duration={0.5} />
         </div>
         <h1 className="self-center">Python</h1>
         <div className="flex gap-1 pt-2 px-2">
-          <div className="w-4 h-12  bg-[#0a586d] dot_pattern2"></div>
-          <div className="w-4 h-12  bg-[#0a586d] dot_pattern2"></div>
-          <div className="w-4 h-12  bg-[#0a586d] dot_pattern2"></div>
-          <div className="w-4 h-12  bg-[#0a586d] dot_pattern2"></div>
-          <div className="w-4 h-12  bg-[#062730] dot_pattern2"></div>
+          <SkillStick on={true} duration={0.1} />
+          <SkillStick on={true} duration={0.2} />
+          <SkillStick on={true} duration={0.3} />
+          <SkillStick on={true} duration={0.4} />
+          <SkillStick on={false} duration={0.5} />
         </div>
         <h1 className="self-center">PHP</h1>
         <div className="flex gap-1 pt-2 px-2">
-          <div className="w-4 h-12  bg-[#0a586d] dot_pattern2"></div>
-          <div className="w-4 h-12  bg-[#0a586d] dot_pattern2"></div>
-          <div className="w-4 h-12  bg-[#0a586d] dot_pattern2"></div>
-          <div className="w-4 h-12  bg-[#0a586d] dot_pattern2"></div>
-          <div className="w-4 h-12  bg-[#062730] dot_pattern2"></div>
+          <SkillStick on={true} duration={0.1} />
+          <SkillStick on={true} duration={0.2} />
+          <SkillStick on={true} duration={0.3} />
+          <SkillStick on={true} duration={0.4} />
+          <SkillStick on={false} duration={0.5} />
         </div>
         <h1 className="self-center">Java</h1>
         <div className="flex gap-1 pt-2 px-2">
-          <div className="w-4 h-12  bg-[#0a586d] dot_pattern2"></div>
-          <div className="w-4 h-12  bg-[#0a586d] dot_pattern2"></div>
-          <div className="w-4 h-12  bg-[#0a586d] dot_pattern2"></div>
-          <div className="w-4 h-12  bg-[#062730] dot_pattern2"></div>
+          <SkillStick on={true} duration={0.1} />
+          <SkillStick on={true} duration={0.2} />
+          <SkillStick on={true} duration={0.3} />
+          <SkillStick on={false} duration={0.4} />
+          <SkillStick on={false} duration={0.5} />
         </div>
       </div>
     </>

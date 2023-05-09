@@ -1,57 +1,16 @@
-import Link from "next/link";
-import { useRouter } from "next/router";
+import { motion } from "framer-motion";
+import HeaderLink from "../header_link/header_link.component";
 
 const Header = () => {
-  const router = useRouter();
   return (
     <header className="bg-black h-20 flex flex-wrap justify-center items-center text-[#faffff]">
-      <div className="self-center flex gap-4 md:text-xl list-none">
-        <li
-          className={`${
-            router.pathname === "/"
-              ? "border-b border-[#f08c00] hover:border-[#ad6500]"
-              : "hover:text-slate-400"
-          }`}
-        >
-          <Link href="/">Home</Link>
-        </li>
-        <li
-          className={`${
-            router.pathname === "/projects"
-              ? "border-b border-[#f08c00] hover:border-[#ad6500]"
-              : "hover:text-slate-400"
-          }`}
-        >
-          <Link href="/projects">Projects</Link>
-        </li>
-        <li
-          className={`${
-            router.pathname === "/skills"
-              ? "border-b border-[#f08c00] hover:border-[#ad6500]"
-              : "hover:text-slate-400"
-          }`}
-        >
-          <Link href="/skills">Skills</Link>
-        </li>
-        <li
-          className={`${
-            router.pathname === "/about"
-              ? "border-b border-[#f08c00] hover:border-[#ad6500]"
-              : "hover:text-slate-400"
-          }`}
-        >
-          <Link href="/about">About</Link>
-        </li>
-        <li
-          className={`${
-            router.pathname === "/contact"
-              ? "border-b border-[#f08c00] hover:border-[#ad6500]"
-              : "hover:text-slate-400"
-          }`}
-        >
-          <Link href="/contact">Contact</Link>
-        </li>
-      </div>
+      <ul className="self-center flex gap-4 md:text-xl list-none">
+        <HeaderLink path="/" name="Home" stiffness={100} />
+        <HeaderLink path="/projects" name="Projects" stiffness={150} />
+        <HeaderLink path="/skills" name="Skills" stiffness={200} />
+        <HeaderLink path="/about" name="About" stiffness={250} />
+        <HeaderLink path="/contact" name="Contact" stiffness={300} />
+      </ul>
     </header>
   );
 };
